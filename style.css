@@ -16,6 +16,8 @@ body {
     display: flex;
     gap: 44px;
     justify-content: space-between;
+	position: fixed;
+	border-bottom: 3px solid gray;
 }
 .header-logo {
     width: 178px;
@@ -64,6 +66,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #111827;
+	margin-top: 90px;
 }
 .about-bolish {
     display: flex;
@@ -72,6 +75,9 @@ body {
 .about-kotta {
     width: 743px;
     height: 232px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 .about-h2 {
     width: 743px;
@@ -115,6 +121,11 @@ body {
     font-size: 18px;
     color: #111827;
     line-height: 24px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+.about-button:active{
+	transform: scale(0.95);
 }
 .about-tugma {
     width: 234px;
@@ -127,7 +138,11 @@ body {
     font-size: 18px;
     color: #374151;
     margin-top: 1.2rem;
+	cursor: pointer;
     line-height: 24px;
+}
+.about-tugma:active{
+	transform: scale(0.95);
 }
 /* about finsh */
 /* another start */
